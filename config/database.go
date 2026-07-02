@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"github.com/Felannn/gin-backend.git/models"
+	"github.com/GAJAHGAJAH/be-store-ac-ku/models"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
