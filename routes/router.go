@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"github.com/Felannn/gin-backend.git/handlers"
-	"github.com/Felannn/gin-backend.git/middleware"
+	"github.com/GAJAHGAJAH/be-store-ac-ku/handlers"
+	"github.com/GAJAHGAJAH/be-store-ac-ku/middleware"
 	"github.com/gin-gonic/gin"
 )
 
