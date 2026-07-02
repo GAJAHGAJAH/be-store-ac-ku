@@ -14,11 +14,11 @@ func main(){
 	}
 
 	config.InitFirebase()
-	
+
 	config.InitDatabase()
 
 	router := routes.SetupRouter()
-	
+
 	port := os.Getenv("APP_PORT")
 	if port == "" {
 		port = "8080"
