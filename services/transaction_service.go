@@ -50,7 +50,7 @@ func (s *TransactionService) Checkout(userID uint, paymentMethod string) (*model
 	txNum := fmt.Sprintf("TRX-%d", time.Now().UnixMilli())
 
 	status := "Selesai"
-	if paymentMethod == "Wallet Ku" {
+	if paymentMethod == "Wallet Ku" || paymentMethod == "Uang Kilat" {
 		status = "Menunggu Pembayaran"
 	}
 
